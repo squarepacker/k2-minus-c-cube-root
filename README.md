@@ -4,7 +4,7 @@ Preprint and programs by Sungjoon Ryu (2026). Version 1.0.
 
 **Status: not peer reviewed.** The argument has so far been checked only by AI-based reviews, by computer programs and by a numerical test on scaled analogues (see "Verification status" below and `reviews/REVIEWS.md`). No human has reviewed it.
 
-**Main result.** Let M(k) be the largest number of unit squares that fit in [0,k]² pairwise disjoint as closed sets, let W_min(k) = k² − M(k), and let s(n) be the side of the smallest square containing n non-overlapping unit squares; for integers 0 ≤ c < k², s(k²−c) = k exactly when c < W_min(k). Then (Theorem 1.1):
+**Main result.** Let M(k) be the largest number of unit squares that fit in [0,k]² pairwise disjoint as closed sets, let W_min(k) = k² − M(k), and let s(n) be the side of the smallest square containing n non-overlapping unit squares; for integers k ≥ 2 and 0 ≤ c < k², s(k²−c) = k exactly when c < W_min(k). Then (Theorem 1.1):
 
 - W_min(k) > 10⁻⁴ · √k for every integer k with 10⁸ ≤ k ≤ 2.5·10¹⁵;
 - W_min(k) > 7·10⁻⁵ · √k for every integer k with 2.5·10¹⁵ ≤ k ≤ 3.5·10¹⁷;
