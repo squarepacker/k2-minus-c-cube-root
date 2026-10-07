@@ -1,0 +1,62 @@
+﻿====================================================================================================
+records (packing x theta): 6480   header-only lines (errors / budget / unverified): 0
+distinct packings: 2560  all verified exactly: True
+packings per family: {'column': 280, 'converge': 280, 'deepcol': 120, 'lshape': 280, 'phase': 280, 'random': 280, 'rotband': 80, 'rotgrid': 280, 'rows': 280, 'stair': 280, 'wall': 120}
+N range 81 210  W range 40 157
+max time per record 4.24 s, max rss 36.3 MB
+tracer anomalies: 0 []
+records with violations: 0
+====================================================================================================
+ITEM 1 (Lemma 1) and Lemma 2, per theta mode
+ mode 0.02   {'flows': 320, 'recs': 21756, 'passes': 29868, 'entries': 31740, 'halfA': 0, 'noY2': 0, 'ext': 2207, 'halfrhs': 1136, 'noD': 267, 'nogap': 63469, 'halfDbound': 0}
+   worst ratios: {'L1_ratio_path_max': inf, 'L1_ratio_glob_max': 0.229657, 'L1_ratio_draft_max': 0.032605, 'L2_ratio_max': 0.463089, 'L2W_ratio_max': 0.0, 'L3_Dmax': 0.000466, 'L3_ratio_D_bound_max': 0.999917, 'L3_gapfrac_max': 1.0, 'L3_distq_max': 0.1, 'maxpass': 7, 'L1_lhs_max': 0.073492, 'D_over_chainbound': 0.145618}
+ mode a+     {'flows': 5120, 'recs': 365285, 'passes': 619986, 'entries': 627583, 'halfA': 0, 'noY2': 167909, 'ext': 263735, 'halfrhs': 104084, 'noD': 54402, 'nogap': 1212817, 'halfDbound': 146153}
+   worst ratios: {'L1_ratio_path_max': inf, 'L1_ratio_glob_max': 0.480505, 'L1_ratio_draft_max': 0.07599, 'L2_ratio_max': 0.968992, 'L2W_ratio_max': 0.8848, 'L3_Dmax': 0.40114, 'L3_ratio_D_bound_max': 0.999917, 'L3_gapfrac_max': 1.0, 'L3_distq_max': 0.392174, 'maxpass': 8, 'L1_lhs_max': 2.431637, 'D_over_chainbound': 0.417697}
+ mode chain  {'flows': 4960, 'recs': 326286, 'passes': 506554, 'entries': 522982, 'halfA': 0, 'noY2': 121337, 'ext': 153955, 'halfrhs': 57983, 'noD': 15400, 'nogap': 1042382, 'halfDbound': 50427}
+   worst ratios: {'L1_ratio_path_max': inf, 'L1_ratio_glob_max': 0.411297, 'L1_ratio_draft_max': 0.054322, 'L2_ratio_max': 0.907191, 'L2W_ratio_max': 0.644989, 'L3_Dmax': 0.015974, 'L3_ratio_D_bound_max': 0.996816, 'L3_gapfrac_max': 1.0, 'L3_distq_max': 0.1, 'maxpass': 7, 'L1_lhs_max': 0.478212, 'D_over_chainbound': 0.329727}
+ mode chainfp {'flows': 2560, 'recs': 179758, 'passes': 301743, 'entries': 306898, 'halfA': 0, 'noY2': 88845, 'ext': 114934, 'halfrhs': 43315, 'noD': 10306, 'nogap': 609282, 'halfDbound': 28658}
+   worst ratios: {'L1_ratio_path_max': 1.0, 'L1_ratio_glob_max': 0.413205, 'L1_ratio_draft_max': 0.058766, 'L2_ratio_max': 0.951022, 'L2W_ratio_max': 0.737492, 'L3_Dmax': 0.050487, 'L3_ratio_D_bound_max': 0.958358, 'L3_gapfrac_max': 1.0, 'L3_distq_max': 0.1, 'maxpass': 7, 'L1_lhs_max': 0.901075, 'D_over_chainbound': 0.336581}
+ mode ALL    {'flows': 12960, 'recs': 893085, 'passes': 1458151, 'entries': 1489203, 'halfA': 0, 'noY2': 378091, 'ext': 534831, 'halfrhs': 206518, 'noD': 80375, 'nogap': 2927950, 'halfDbound': 225238}
+   worst ratios: {'L1_ratio_path_max': inf, 'L1_ratio_glob_max': 0.480505, 'L1_ratio_draft_max': 0.07599, 'L2_ratio_max': 0.968992, 'L2W_ratio_max': 0.8848, 'L3_Dmax': 0.40114, 'L3_ratio_D_bound_max': 0.999917, 'L3_gapfrac_max': 1.0, 'L3_distq_max': 0.392174, 'maxpass': 8, 'L1_lhs_max': 2.431637, 'D_over_chainbound': 0.417697}
+====================================================================================================
+ITEM 2 (Lemma 3): max deficit D per family and theta mode; chain mode must have D <= tau1 = 0.15
+ column    a+: maxD 0.0061 (D/chainbound 0.375) | chain: maxD 0.0061 (D/chainbound 0.143) | chainfp: maxD 0.0061 (D/chainbound 0.040)
+ converge  a+: maxD 0.0072 (D/chainbound 0.214) | chain: maxD 0.0064 (D/chainbound 0.132) | chainfp: maxD 0.0072 (D/chainbound 0.048)
+ deepcol   a+: maxD 0.0585 (D/chainbound 0.374) | chain: maxD 0.0160 (D/chainbound 0.330) | chainfp: maxD 0.0505 (D/chainbound 0.337)
+ lshape    a+: maxD 0.0000 (D/chainbound 0.000) | chain: maxD 0.0000 (D/chainbound 0.000) | chainfp: maxD 0.0000 (D/chainbound 0.000)
+ phase     a+: maxD 0.0033 (D/chainbound 0.073) | chain: maxD 0.0033 (D/chainbound 0.068) | chainfp: maxD 0.0033 (D/chainbound 0.022)
+ random    0.02: maxD 0.0005 (D/chainbound 0.146) | a+: maxD 0.0046 (D/chainbound 0.141) | chain: maxD 0.0034 (D/chainbound 0.070) | chainfp: maxD 0.0043 (D/chainbound 0.029)
+ rotband   a+: maxD 0.3559 (D/chainbound 0.418) | chainfp: maxD 0.0000 (D/chainbound 0.000)
+ rotgrid   a+: maxD 0.3559 (D/chainbound 0.415) | chain: maxD 0.0075 (D/chainbound 0.177) | chainfp: maxD 0.0430 (D/chainbound 0.287)
+ rows      a+: maxD 0.0014 (D/chainbound 0.133) | chain: maxD 0.0014 (D/chainbound 0.034) | chainfp: maxD 0.0010 (D/chainbound 0.007)
+ stair     a+: maxD 0.4011 (D/chainbound 0.415) | chain: maxD 0.0000 (D/chainbound 0.000) | chainfp: maxD 0.0000 (D/chainbound 0.000)
+ wall      a+: maxD 0.0032 (D/chainbound 0.143) | chain: maxD 0.0032 (D/chainbound 0.066) | chainfp: maxD 0.0032 (D/chainbound 0.021)
+ chain theta: sin theta in [0.0726, 0.0830]; max D in chain mode 0.01597
+====================================================================================================
+ITEM 3 (Lemma 4) per tau set: type-Z squares and entries on them
+ 0.2_0.08_0.1           {'flows_cond_smallD': 2986, 'flows_cond_largeD': 254, 'flows_nocond': 3240, 'nZ_sum': 166084, 'entries_smallD': 0, 'entries_largeD': 98, 'measure_largeD': 1.9658702466251343, 'minD_largeD': 0.22364929785943746, 'viol_impl': 0, 'geo_min': 6.7898059994681424e-06, 'packings_withZ': 3590}
+ 0.3_0.15_0.03          {'flows_cond_smallD': 6042, 'flows_cond_largeD': 438, 'flows_nocond': 0, 'nZ_sum': 77745, 'entries_smallD': 0, 'entries_largeD': 94, 'measure_largeD': 1.8858236139829663, 'minD_largeD': 0.3131090170032125, 'viol_impl': 0, 'geo_min': 6.97009078826129e-06, 'packings_withZ': 2634}
+ 0.3_0.15_0.08          {'flows_cond_smallD': 6042, 'flows_cond_largeD': 438, 'flows_nocond': 0, 'nZ_sum': 100442, 'entries_smallD': 0, 'entries_largeD': 94, 'measure_largeD': 1.8858236139829663, 'minD_largeD': 0.3131090170032125, 'viol_impl': 0, 'geo_min': 6.97009078826129e-06, 'packings_withZ': 3085}
+ 0.3_0.15_0.14          {'flows_cond_smallD': 6042, 'flows_cond_largeD': 438, 'flows_nocond': 0, 'nZ_sum': 118030, 'entries_smallD': 0, 'entries_largeD': 94, 'measure_largeD': 1.8858236139829663, 'minD_largeD': 0.3131090170032125, 'viol_impl': 0, 'geo_min': 6.97009078826129e-06, 'packings_withZ': 3349}
+ 0.49_0.08_0.34         {'flows_cond_smallD': 2986, 'flows_cond_largeD': 254, 'flows_nocond': 3240, 'nZ_sum': 43629, 'entries_smallD': 0, 'entries_largeD': 0, 'measure_largeD': 0.0, 'minD_largeD': None, 'viol_impl': 0, 'geo_min': 2.702397288582934e-05, 'packings_withZ': 2000}
+====================================================================================================
+ITEM 4 (Lemma 6) per Z set
+ line samples: {'samples': 311040, 'exc_hits': 0, 'tracer_bad': 0}
+ Z_all                      {'flows': 12960, 'flows_nonempty': 12254, 'nZ_used_sum': 451245, 'nZ_passed_sum': 455187, 'ratio_global_max': 0.7946428571428571, 'ratio_int_max': 0.8116833381696805, 'ptw_ratio_max': 0.9806178591002472, 'ptw_margin_min': 0.3101142543960435, 'neg_with_passed': 150743, 'neg_LTonly': 210444}
+ Z_tZ_0.2_0.08_0.1          {'flows': 12960, 'flows_nonempty': 6189, 'nZ_used_sum': 127041, 'nZ_passed_sum': 116, 'ratio_global_max': 0.7070811562124377, 'ratio_int_max': 0.7204214744670034, 'ptw_ratio_max': 0.9378472094985765, 'ptw_margin_min': 0.9944446480227759, 'neg_with_passed': 0, 'neg_LTonly': 73298}
+ Z_tZ_0.3_0.15_0.03         {'flows': 12960, 'flows_nonempty': 4090, 'nZ_used_sum': 57271, 'nZ_passed_sum': 22, 'ratio_global_max': 0.6428571428571429, 'ratio_int_max': 0.669436614363356, 'ptw_ratio_max': 0.9375648509535942, 'ptw_margin_min': 0.997599714959118, 'neg_with_passed': 0, 'neg_LTonly': 36651}
+ Z_tZ_0.3_0.15_0.08         {'flows': 12960, 'flows_nonempty': 4800, 'nZ_used_sum': 75894, 'nZ_passed_sum': 22, 'ratio_global_max': 0.6428571428571429, 'ratio_int_max': 0.669436614363356, 'ptw_ratio_max': 0.9378190809825824, 'ptw_margin_min': 0.9948947042786827, 'neg_with_passed': 0, 'neg_LTonly': 50466}
+ Z_tZ_0.3_0.15_0.14         {'flows': 12960, 'flows_nonempty': 5349, 'nZ_used_sum': 91095, 'nZ_passed_sum': 22, 'ratio_global_max': 0.6428571428571429, 'ratio_int_max': 0.669436614363356, 'ptw_ratio_max': 0.9378190809825824, 'ptw_margin_min': 0.9948947042786827, 'neg_with_passed': 0, 'neg_LTonly': 61352}
+ Z_tZ_0.49_0.08_0.34        {'flows': 12960, 'flows_nonempty': 3232, 'nZ_used_sum': 35030, 'nZ_passed_sum': 0, 'ratio_global_max': 0.2699741516138622, 'ratio_int_max': 0.3167517539792295, 'ptw_ratio_max': 0.6885952672370975, 'ptw_margin_min': 1.0, 'neg_with_passed': 0, 'neg_LTonly': 40473}
+ summed loss measures over all flows: {'LT': 8648.445, 'D': 146074.273, 'M': 36.058, 'E': 488.186, 'W': 6.427, 'H': 39466.61, 'supOvgap': 8.722}
+ measured A' = theta (L_T + L~_T)/W : max 0.0392
+====================================================================================================
+ITEM 5 (Theorem A with measured constants) per (tau0, tau1, beta, nu0)
+ 0.2_0.08_0.1_nu0.3           {'n': 6480, 'cond': 2986, 'calH_min': 1.2, 'I_max_ratio': 0.03913, 'II_max_ratio': 0.0, 'K_pos': 0, 'K_max': 0.0, 'den_pos': 0, 'ratio_K_max': 0.0, 'Emax_on_K_max': None, 'L5_viol': 0, 'TA_ratio_max': 0.037558, 'negII': 0, 'K2_pos': 0, 'K2_meas_max': 0.0, 'K2_chain_ratio_max': None, 'K2_L6_max': 0.0, 'ZK_passed_cond': 0, 'ZK_passed_any': 0, 'int_K_max': 0.0}
+ 0.2_0.08_0.1_nu0.49          {'n': 3760, 'cond': 1762, 'calH_min': 1.2, 'I_max_ratio': 0.063913, 'II_max_ratio': 0.763593, 'K_pos': 0, 'K_max': 0.0, 'den_pos': 0, 'ratio_K_max': 0.0, 'Emax_on_K_max': None, 'L5_viol': 0, 'TA_ratio_max': 0.058429, 'negII': 68, 'K2_pos': 0, 'K2_meas_max': 0.0, 'K2_chain_ratio_max': None, 'K2_L6_max': 0.0, 'ZK_passed_cond': 0, 'ZK_passed_any': 0, 'int_K_max': 0.0}
+ 0.3_0.15_0.03_nu0.3          {'n': 6480, 'cond': 6042, 'calH_min': 0.8, 'I_max_ratio': 0.026087, 'II_max_ratio': 0.0, 'K_pos': 0, 'K_max': 0.0, 'den_pos': 0, 'ratio_K_max': 0.0, 'Emax_on_K_max': None, 'L5_viol': 0, 'TA_ratio_max': 0.025763, 'negII': 0, 'K2_pos': 0, 'K2_meas_max': 0.0, 'K2_chain_ratio_max': None, 'K2_L6_max': 0.0, 'ZK_passed_cond': 0, 'ZK_passed_any': 0, 'int_K_max': 0.0}
+ 0.3_0.15_0.08_nu0.3          {'n': 6480, 'cond': 6042, 'calH_min': 0.8, 'I_max_ratio': 0.026087, 'II_max_ratio': 0.0, 'K_pos': 0, 'K_max': 0.0, 'den_pos': 0, 'ratio_K_max': 0.0, 'Emax_on_K_max': None, 'L5_viol': 0, 'TA_ratio_max': 0.025241, 'negII': 0, 'K2_pos': 0, 'K2_meas_max': 0.0, 'K2_chain_ratio_max': None, 'K2_L6_max': 0.0, 'ZK_passed_cond': 0, 'ZK_passed_any': 0, 'int_K_max': 0.0}
+ 0.3_0.15_0.14_nu0.3          {'n': 6480, 'cond': 6042, 'calH_min': 0.8, 'I_max_ratio': 0.026087, 'II_max_ratio': 0.0, 'K_pos': 0, 'K_max': 0.0, 'den_pos': 0, 'ratio_K_max': 0.0, 'Emax_on_K_max': None, 'L5_viol': 0, 'TA_ratio_max': 0.024642, 'negII': 0, 'K2_pos': 0, 'K2_meas_max': 0.0, 'K2_chain_ratio_max': None, 'K2_L6_max': 0.0, 'ZK_passed_cond': 0, 'ZK_passed_any': 0, 'int_K_max': 0.0}
+ 0.3_0.15_0.14_nu0.49         {'n': 3760, 'cond': 3544, 'calH_min': 0.8, 'I_max_ratio': 0.042609, 'II_max_ratio': 0.56403, 'K_pos': 0, 'K_max': 0.0, 'den_pos': 0, 'ratio_K_max': 0.0, 'Emax_on_K_max': None, 'L5_viol': 0, 'TA_ratio_max': 0.03766, 'negII': 58, 'K2_pos': 0, 'K2_meas_max': 0.0, 'K2_chain_ratio_max': None, 'K2_L6_max': 0.0, 'ZK_passed_cond': 0, 'ZK_passed_any': 0, 'int_K_max': 0.0}
+ 0.49_0.08_0.34_nu0.3         {'n': 6480, 'cond': 2986, 'calH_min': 0.04, 'I_max_ratio': 0.001304, 'II_max_ratio': 0.0, 'K_pos': 0, 'K_max': 0.0, 'den_pos': 0, 'ratio_K_max': 0.0, 'Emax_on_K_max': None, 'L5_viol': 0, 'TA_ratio_max': 0.001142, 'negII': 0, 'K2_pos': 262, 'K2_meas_max': 0.08, 'K2_chain_ratio_max': 0.001087, 'K2_L6_max': 0.089871, 'ZK_passed_cond': 0, 'ZK_passed_any': 0, 'int_K_max': 0.0}
+ 0.49_0.08_0.34_nu0.49        {'n': 6480, 'cond': 2986, 'calH_min': 0.04, 'I_max_ratio': 0.00213, 'II_max_ratio': 0.0, 'K_pos': 108, 'K_max': 0.04, 'den_pos': 12, 'ratio_K_max': 3.4e-05, 'Emax_on_K_max': 0.515067, 'L5_viol': 0, 'TA_ratio_max': 0.001615, 'negII': 0, 'K2_pos': 262, 'K2_meas_max': 0.08, 'K2_chain_ratio_max': 0.001087, 'K2_L6_max': 0.089871, 'ZK_passed_cond': 0, 'ZK_passed_any': 0, 'int_K_max': 0.00656}

@@ -1,0 +1,209 @@
+[
+ {
+  "fam": "phase",
+  "k": 16,
+  "seed": 34,
+  "idx": 0,
+  "N": 182,
+  "sinA": 0.01,
+  "delta": 0.05,
+  "floor": {
+   "nrec": 67,
+   "anom": [],
+   "R1multi": 0,
+   "measures": {
+    "D": 11.99794917852414,
+    "E": 0.1191536153019268,
+    "T": 3.882897206173933
+   },
+   "point": {
+    "points": 67,
+    "agree": 67,
+    "disagree": [],
+    "merges": 0,
+    "merge_ok": 0,
+    "merge_bad": [],
+    "quant_bad": [],
+    "degenerate": 66
+   },
+   "asmx": {
+    "measures": {
+     "D": 11.997949178524147,
+     "E": 0.11915361530192348,
+     "T": 3.8828972061739284
+    },
+    "anom": [],
+    "dropped": 0.0
+   },
+   "asmx_maxdiff": 7.105427357601002e-15
+  },
+  "ceil": {
+   "nrec": 63,
+   "anom": [],
+   "R1multi": 0,
+   "measures": {
+    "D": 10.475565027030951,
+    "E": 0.10270041060775441,
+    "T": 5.421734562361293
+   },
+   "point": {
+    "points": 63,
+    "agree": 63,
+    "disagree": [],
+    "merges": 0,
+    "merge_ok": 0,
+    "merge_bad": [],
+    "quant_bad": [],
+    "degenerate": 62
+   },
+   "asmx": {
+    "measures": {
+     "D": 10.475565027030962,
+     "E": 0.10270041060774937,
+     "T": 5.421734562361288
+    },
+    "anom": [],
+    "dropped": 0.0
+   },
+   "asmx_maxdiff": 1.0658141036401503e-14
+  }
+ },
+ {
+  "fam": "phase",
+  "k": 16,
+  "seed": 34,
+  "idx": 1,
+  "N": 196,
+  "sinA": 0.01,
+  "delta": 0.05,
+  "floor": {
+   "nrec": 69,
+   "anom": [],
+   "R1multi": 0,
+   "measures": {
+    "D": 9.051502285369315,
+    "E": 0.07257323004500892,
+    "T": 6.875924484585677
+   },
+   "point": {
+    "points": 69,
+    "agree": 69,
+    "disagree": [],
+    "merges": 0,
+    "merge_ok": 0,
+    "merge_bad": [],
+    "quant_bad": [],
+    "degenerate": 68
+   },
+   "asmx": {
+    "measures": {
+     "D": 9.051502285369315,
+     "E": 0.07257323004500593,
+     "T": 6.875924484585679
+    },
+    "anom": [],
+    "dropped": 0.0
+   },
+   "asmx_maxdiff": 2.9837243786801082e-15
+  },
+  "ceil": {
+   "nrec": 66,
+   "anom": [],
+   "R1multi": 0,
+   "measures": {
+    "D": 7.273998849223345,
+    "E": 0.0567191325205172,
+    "T": 8.669282018256139
+   },
+   "point": {
+    "points": 66,
+    "agree": 66,
+    "disagree": [],
+    "merges": 0,
+    "merge_ok": 0,
+    "merge_bad": [],
+    "quant_bad": [],
+    "degenerate": 65
+   },
+   "asmx": {
+    "measures": {
+     "D": 7.273998849223348,
+     "E": 0.05671913252051497,
+     "T": 8.669282018256135
+    },
+    "anom": [],
+    "dropped": 0.0
+   },
+   "asmx_maxdiff": 3.552713678800501e-15
+  }
+ },
+ {
+  "fam": "phase",
+  "k": 16,
+  "seed": 34,
+  "idx": 2,
+  "N": 182,
+  "sinA": 0.01,
+  "delta": 0.05,
+  "floor": {
+   "nrec": 67,
+   "anom": [],
+   "R1multi": 0,
+   "measures": {
+    "D": 9.744666634866554,
+    "E": 0.09264085154583371,
+    "T": 6.162692513587612
+   },
+   "point": {
+    "points": 67,
+    "agree": 67,
+    "disagree": [],
+    "merges": 0,
+    "merge_ok": 0,
+    "merge_bad": [],
+    "quant_bad": [],
+    "degenerate": 66
+   },
+   "asmx": {
+    "measures": {
+     "D": 9.744666634866565,
+     "E": 0.09264085154583093,
+     "T": 6.162692513587604
+    },
+    "anom": [],
+    "dropped": 0.0
+   },
+   "asmx_maxdiff": 1.0658141036401503e-14
+  },
+  "ceil": {
+   "nrec": 68,
+   "anom": [],
+   "R1multi": 0,
+   "measures": {
+    "D": 11.990174856148903,
+    "E": 0.11982428700970928,
+    "T": 3.890000856841389
+   },
+   "point": {
+    "points": 68,
+    "agree": 68,
+    "disagree": [],
+    "merges": 0,
+    "merge_ok": 0,
+    "merge_bad": [],
+    "quant_bad": [],
+    "degenerate": 67
+   },
+   "asmx": {
+    "measures": {
+     "D": 11.990174856148911,
+     "E": 0.11982428700970171,
+     "T": 3.8900008568413873
+    },
+    "anom": [],
+    "dropped": 0.0
+   },
+   "asmx_maxdiff": 8.881784197001252e-15
+  }
+ }
+]

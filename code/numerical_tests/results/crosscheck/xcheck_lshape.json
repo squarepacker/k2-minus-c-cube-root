@@ -1,0 +1,197 @@
+[
+ {
+  "fam": "lshape",
+  "k": 16,
+  "seed": 26,
+  "idx": 0,
+  "N": 210,
+  "sinA": 0.029994251518408357,
+  "delta": 0.05,
+  "floor": {
+   "nrec": 14,
+   "anom": [],
+   "R1multi": 0,
+   "measures": {
+    "D": 15.996444897445024,
+    "E": 0.003555102554977067
+   },
+   "point": {
+    "points": 14,
+    "agree": 14,
+    "disagree": [],
+    "merges": 0,
+    "merge_ok": 0,
+    "merge_bad": [],
+    "quant_bad": [],
+    "degenerate": 13
+   },
+   "asmx": {
+    "measures": {
+     "D": 15.99644489744502,
+     "E": 0.0035551025549789284
+    },
+    "anom": [],
+    "dropped": 0.0
+   },
+   "asmx_maxdiff": 3.552713678800501e-15
+  },
+  "ceil": {
+   "nrec": 14,
+   "anom": [],
+   "R1multi": 0,
+   "measures": {
+    "D": 15.996444897445024,
+    "E": 0.003555102554977067
+   },
+   "point": {
+    "points": 14,
+    "agree": 14,
+    "disagree": [],
+    "merges": 0,
+    "merge_ok": 0,
+    "merge_bad": [],
+    "quant_bad": [],
+    "degenerate": 13
+   },
+   "asmx": {
+    "measures": {
+     "D": 15.99644489744502,
+     "E": 0.0035551025549789284
+    },
+    "anom": [],
+    "dropped": 0.0
+   },
+   "asmx_maxdiff": 3.552713678800501e-15
+  }
+ },
+ {
+  "fam": "lshape",
+  "k": 16,
+  "seed": 26,
+  "idx": 1,
+  "N": 208,
+  "sinA": 0.07987320447284345,
+  "delta": 0.05,
+  "floor": {
+   "nrec": 68,
+   "anom": [],
+   "R1multi": 0,
+   "measures": {
+    "D": 15.9484375,
+    "E": 0.0515625
+   },
+   "point": {
+    "points": 68,
+    "agree": 68,
+    "disagree": [],
+    "merges": 0,
+    "merge_ok": 0,
+    "merge_bad": [],
+    "quant_bad": [],
+    "degenerate": 67
+   },
+   "asmx": {
+    "measures": {
+     "D": 15.948437499999995,
+     "E": 0.051562500000003286
+    },
+    "anom": [],
+    "dropped": 0.0
+   },
+   "asmx_maxdiff": 5.329070518200751e-15
+  },
+  "ceil": {
+   "nrec": 68,
+   "anom": [],
+   "R1multi": 0,
+   "measures": {
+    "D": 15.9484375,
+    "E": 0.0515625
+   },
+   "point": {
+    "points": 68,
+    "agree": 68,
+    "disagree": [],
+    "merges": 0,
+    "merge_ok": 0,
+    "merge_bad": [],
+    "quant_bad": [],
+    "degenerate": 67
+   },
+   "asmx": {
+    "measures": {
+     "D": 15.948437499999995,
+     "E": 0.051562500000003286
+    },
+    "anom": [],
+    "dropped": 0.0
+   },
+   "asmx_maxdiff": 5.329070518200751e-15
+  }
+ },
+ {
+  "fam": "lshape",
+  "k": 16,
+  "seed": 26,
+  "idx": 2,
+  "N": 208,
+  "sinA": 0.07987320447284345,
+  "delta": 0.05,
+  "floor": {
+   "nrec": 68,
+   "anom": [],
+   "R1multi": 0,
+   "measures": {
+    "D": 15.9484375,
+    "E": 0.0515625
+   },
+   "point": {
+    "points": 68,
+    "agree": 68,
+    "disagree": [],
+    "merges": 0,
+    "merge_ok": 0,
+    "merge_bad": [],
+    "quant_bad": [],
+    "degenerate": 67
+   },
+   "asmx": {
+    "measures": {
+     "D": 15.948437499999995,
+     "E": 0.051562500000003286
+    },
+    "anom": [],
+    "dropped": 0.0
+   },
+   "asmx_maxdiff": 5.329070518200751e-15
+  },
+  "ceil": {
+   "nrec": 67,
+   "anom": [],
+   "R1multi": 0,
+   "measures": {
+    "D": 15.9484375,
+    "E": 0.0515625
+   },
+   "point": {
+    "points": 67,
+    "agree": 67,
+    "disagree": [],
+    "merges": 0,
+    "merge_ok": 0,
+    "merge_bad": [],
+    "quant_bad": [],
+    "degenerate": 66
+   },
+   "asmx": {
+    "measures": {
+     "D": 15.948437499999995,
+     "E": 0.051562500000003286
+    },
+    "anom": [],
+    "dropped": 0.0
+   },
+   "asmx_maxdiff": 5.329070518200751e-15
+  }
+ }
+]

@@ -1,0 +1,203 @@
+[
+ {
+  "fam": "random",
+  "k": 14,
+  "seed": 23,
+  "idx": 0,
+  "N": 156,
+  "sinA": 0.05994704855629933,
+  "delta": 0.05,
+  "floor": {
+   "nrec": 96,
+   "anom": [],
+   "R1multi": 0,
+   "measures": {
+    "D": 13.980144607461085,
+    "E": 0.019855392538914565
+   },
+   "point": {
+    "points": 96,
+    "agree": 96,
+    "disagree": [],
+    "merges": 0,
+    "merge_ok": 0,
+    "merge_bad": [],
+    "quant_bad": [],
+    "degenerate": 95
+   },
+   "asmx": {
+    "measures": {
+     "D": 13.98014460746109,
+     "E": 0.019855392538907557
+    },
+    "anom": [],
+    "dropped": 0.0
+   },
+   "asmx_maxdiff": 7.008282842946301e-15
+  },
+  "ceil": {
+   "nrec": 92,
+   "anom": [],
+   "R1multi": 0,
+   "measures": {
+    "D": 13.98635703758168,
+    "E": 0.01364296241832095
+   },
+   "point": {
+    "points": 92,
+    "agree": 92,
+    "disagree": [],
+    "merges": 0,
+    "merge_ok": 0,
+    "merge_bad": [],
+    "quant_bad": [],
+    "degenerate": 91
+   },
+   "asmx": {
+    "measures": {
+     "D": 13.986357037581678,
+     "E": 0.013642962418322746
+    },
+    "anom": [],
+    "dropped": 0.0
+   },
+   "asmx_maxdiff": 1.7954387976359953e-15
+  }
+ },
+ {
+  "fam": "random",
+  "k": 14,
+  "seed": 23,
+  "idx": 1,
+  "N": 150,
+  "sinA": 0.029994251518408357,
+  "delta": 0.05,
+  "floor": {
+   "nrec": 59,
+   "anom": [],
+   "R1multi": 0,
+   "measures": {
+    "D": 13.01075722177037,
+    "E": 0.003521556671496622,
+    "H": 0.9857212215581334
+   },
+   "point": {
+    "points": 59,
+    "agree": 59,
+    "disagree": [],
+    "merges": 0,
+    "merge_ok": 0,
+    "merge_bad": [],
+    "quant_bad": [],
+    "degenerate": 58
+   },
+   "asmx": {
+    "measures": {
+     "D": 13.010757221770369,
+     "E": 0.0035215566714956736,
+     "H": 0.985721221558133
+    },
+    "anom": [],
+    "dropped": 0.0
+   },
+   "asmx_maxdiff": 1.7763568394002505e-15
+  },
+  "ceil": {
+   "nrec": 69,
+   "anom": [],
+   "R1multi": 0,
+   "measures": {
+    "D": 13.002016880122534,
+    "E": 0.005715266579514749,
+    "H": 0.9922678532979505
+   },
+   "point": {
+    "points": 69,
+    "agree": 69,
+    "disagree": [],
+    "merges": 0,
+    "merge_ok": 0,
+    "merge_bad": [],
+    "quant_bad": [],
+    "degenerate": 68
+   },
+   "asmx": {
+    "measures": {
+     "D": 13.002016880122538,
+     "E": 0.005715266579515141,
+     "H": 0.9922678532979479
+    },
+    "anom": [],
+    "dropped": 0.0
+   },
+   "asmx_maxdiff": 3.552713678800501e-15
+  }
+ },
+ {
+  "fam": "random",
+  "k": 14,
+  "seed": 23,
+  "idx": 2,
+  "N": 138,
+  "sinA": 0.09975162344139651,
+  "delta": 0.05,
+  "floor": {
+   "nrec": 64,
+   "anom": [],
+   "R1multi": 0,
+   "measures": {
+    "D": 12.991121555135253,
+    "E": 0.017878444864747094,
+    "H": 0.991
+   },
+   "point": {
+    "points": 64,
+    "agree": 64,
+    "disagree": [],
+    "merges": 0,
+    "merge_ok": 0,
+    "merge_bad": [],
+    "quant_bad": [],
+    "degenerate": 63
+   },
+   "asmx": {
+    "measures": {
+     "D": 12.991121555135248,
+     "E": 0.017878444864750875,
+     "H": 0.9909999999999997
+    },
+    "anom": [],
+    "dropped": 0.0
+   },
+   "asmx_maxdiff": 5.329070518200751e-15
+  },
+  "ceil": {
+   "nrec": 65,
+   "anom": [],
+   "R1multi": 0,
+   "measures": {
+    "D": 13.977193745891007,
+    "E": 0.022806254108992893
+   },
+   "point": {
+    "points": 65,
+    "agree": 65,
+    "disagree": [],
+    "merges": 0,
+    "merge_ok": 0,
+    "merge_bad": [],
+    "quant_bad": [],
+    "degenerate": 64
+   },
+   "asmx": {
+    "measures": {
+     "D": 13.977193745891007,
+     "E": 0.022806254108993312
+    },
+    "anom": [],
+    "dropped": 0.0
+   },
+   "asmx_maxdiff": 4.198030811863873e-16
+  }
+ }
+]

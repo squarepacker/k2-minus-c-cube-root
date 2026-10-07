@@ -1,0 +1,42 @@
+== Part 1: exact constants vs. the rounded-up values of Section 2.1 of the paper ==
+[K=9] A in [10.6066176277, 10.6066176277]  A' in [10.6066176377, 10.6066176377]  S_K in [56.2500843757, 56.2500843757]
+       C_M <= 318.1990061 (used 318.20),  C_G <= 56.25008438 (used 56.2501),  ratios 41.9310924, 41.9312465 <= 41.933,  C_E = 754.794 (used 754.8)
+       all upper bounds OK
+[K=13] A in [12.7475679053, 12.7475679053]  A' in [12.7475679153, 12.7475679153]  S_K in [81.250121876, 81.250121876]
+       C_M <= 459.6207866 (used 459.7),  C_G <= 81.25012188 (used 81.26),  ratios 41.9310924, 41.9312465 <= 41.933,  C_E = 1090.258 (used 1090.3)
+       all upper bounds OK
+[K=9] B1 in [5.303353000006, 5.303353000006]  L1 in [100021.225267, 100021.225267]
+[K=13] B1 in [6.373803000007, 6.373803000007]  L1 in [100025.5123371, 100025.5123371]
+
+== Part 2: the 8 cases of Table 1 at k = ka (exact rational intervals) ==
+PASS K=9 p=1/2 W > 0.0001 k^(1/2) on [1e8, 2.5e15]  (t0=41/2000, t1=1/50, n0=1/1000, b=0.0012)
+     LHS/k >= 0.958999942, RHS+/k <= 0.872660086, margin/k >= 0.0863399 (rel 0.09003); beta=1.2e-07, E*<=6.371e-07, W=1, theta-branch max=1/bb  branch: c*sqrt(kb) <= 5000 vs W1 >= 5028.26545 (slack 28.27)
+PASS K=9 p=1/2 W > 7e-05 k^(1/2) on [2.5e15, 3.5e17]  (t0=67/400, t1=167/1000, n0=1/1000, b=0.0012)
+     LHS/k >= 0.665, RHS+/k <= 0.610855003, margin/k >= 0.054145 (rel 0.08142); beta=2.4e-11, E*<=4.455e-07, W=3500, theta-branch max=1/bb  branch: c*sqrt(kb) <= 41412.5585 vs W1 >= 41986.0165 (slack 573.5)
+PASS K=9 p=1/3 W > 0.06 k^(1/3) on [3.5e17, inf]  (t0=67/400, t1=167/1000, n0=1/100, b=1)
+     LHS/k >= 0.665, RHS+/k <= 0.628716509, margin/k >= 0.0362835 (rel 0.05456); beta=2.0135e-12, E*<=4.515e-07, W=42283.792, theta-branch max=B1W/2t1
+PASS K=9 p=1/3 W > 0.0625 k^(1/3) on [1e21, inf]  (t0=417/2500, t1=1667/10000, n0=1/200, b=1)
+     LHS/k >= 0.6664, RHS+/k <= 0.662962809, margin/k >= 0.00343719 (rel 0.005158); beta=1e-14, E*<=3.315e-08, W=625000, theta-branch max=B1W/2t1
+PASS K=13 p=1/2 W > 8.5e-05 k^(1/2) on [1e8, 2.4e15]  (t0=41/2000, t1=1/50, n0=1/1000, b=0.0012)
+     LHS/k >= 0.958999942, RHS+/k <= 0.890444946, margin/k >= 0.068555 (rel 0.07149); beta=1.2e-07, E*<=6.508e-07, W=0.85, theta-branch max=1/bb  branch: c*sqrt(kb) <= 4164.13256 vs W1 >= 4183.7921 (slack 19.66)
+PASS K=13 p=1/2 W > 6e-05 k^(1/2) on [2.4e15, 3.39e17]  (t0=67/400, t1=167/1000, n0=1/1000, b=0.0012)
+     LHS/k >= 0.665, RHS+/k <= 0.628543315, margin/k >= 0.0364567 (rel 0.05482); beta=2.4495e-11, E*<=4.589e-07, W=2939.3877, theta-branch max=1/bb  branch: c*sqrt(kb) <= 34934.2239 vs W1 >= 34934.6641 (slack 0.4402)
+PASS K=13 p=1/3 W > 0.05 k^(1/3) on [3.39e17, inf]  (t0=67/400, t1=167/1000, n0=1/100, b=1)
+     LHS/k >= 0.665, RHS+/k <= 0.630093901, margin/k >= 0.0349061 (rel 0.05249); beta=2.0568e-12, E*<=4.571e-07, W=34863.413, theta-branch max=1/bb
+PASS K=13 p=1/3 W > 0.052 k^(1/3) on [1e21, inf]  (t0=417/2500, t1=1667/10000, n0=1/200, b=1)
+     LHS/k >= 0.6664, RHS+/k <= 0.662841603, margin/k >= 0.0035584 (rel 0.00534); beta=1e-14, E*<=3.314e-08, W=520000, theta-branch max=B1W/2t1
+PART 2: ALL 8 PASS
+
+== Part 3: sanity sweeps (floating point, 50 digits; not part of the proof) ==
+K=9 p=1/2 c=0.0001: RHS+/k non-increasing on grid: True; min(LHS/k-RHS+/k) on grid = 0.0863399
+K=9 p=1/2 c=7.0e-5: RHS+/k non-increasing on grid: True; min(LHS/k-RHS+/k) on grid = 0.054145
+K=9 p=1/3 c=0.06: RHS+/k non-increasing on grid: True; min(LHS/k-RHS+/k) on grid = 0.0362835, RHS+/k -> 0.62441551 vs LHS/k -> 0.665
+K=9 p=1/3 c=0.0625: RHS+/k non-increasing on grid: True; min(LHS/k-RHS+/k) on grid = 0.00343719, RHS+/k -> 0.66264866 vs LHS/k -> 0.6664
+K=13 p=1/2 c=8.5e-5: RHS+/k non-increasing on grid: True; min(LHS/k-RHS+/k) on grid = 0.068555
+K=13 p=1/2 c=6.0e-5: RHS+/k non-increasing on grid: True; min(LHS/k-RHS+/k) on grid = 0.0364567
+K=13 p=1/3 c=0.05: RHS+/k non-increasing on grid: True; min(LHS/k-RHS+/k) on grid = 0.0349061, RHS+/k -> 0.62584346 vs LHS/k -> 0.665
+K=13 p=1/3 c=0.052: RHS+/k non-increasing on grid: True; min(LHS/k-RHS+/k) on grid = 0.0035584, RHS+/k -> 0.66258022 vs LHS/k -> 0.6664
+[K=9] c_inf with rounded A,A',B1: 0.06285314432;  exact: 0.06285382995;  exact with B1 -> A/2: 0.0628538418
+[K=13] c_inf with rounded A,A',B1: 0.05229741772;  exact: 0.05229754937;  exact with B1 -> A/2: 0.05229755758
+
+OVERALL: OK

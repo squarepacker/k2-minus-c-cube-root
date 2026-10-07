@@ -1,0 +1,18 @@
+{
+ "packings": 132,
+ "intervals": 83068,
+ "viol": 0,
+ "min_slack": 0.0,
+ "max_nlong": 15,
+ "neg2_fail_intervals": 1899,
+ "neg2_fail_packings": 51,
+ "kmax": 0,
+ "worst": [
+  "random",
+  14,
+  0,
+  0.05228185144939187,
+  13
+ ],
+ "seconds": 91.46524143218994
+}

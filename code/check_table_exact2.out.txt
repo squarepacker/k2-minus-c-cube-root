@@ -1,0 +1,46 @@
+K=9: B1 in [5.303353, 5.303353000006]  L1 <= 100021.225267
+K=13: B1 in [6.373803, 6.373803000007]  L1 <= 100025.5123371
+
+case 1 K=9 p=1/2: OK  lhs/ka=0.95899994246  R+/ka<=0.87266008552  beta(ka)<=1.2e-07  E<=6.371e-07  branch=1st
+         (iv): c*sqrt(kb) <= 5000, W1 >= 5028.265451, rel.margin 0.005653
+         table: left>=0.95899994 (true lhs/ka >= it), R+/ka<=0.87266009 (my upper bound <= it)
+case 2 K=9 p=1/2: OK  lhs/ka=0.665  R+/ka<=0.61085500343  beta(ka)<=2.4e-11  E<=4.455e-07  branch=1st
+         (iv): c*sqrt(kb) <= 41412.55848, W1 >= 41986.01652, rel.margin 0.01385
+         table: left>=0.66499999 (true lhs/ka >= it), R+/ka<=0.61085501 (my upper bound <= it)
+case 3 K=9 p=1/3: OK  lhs/ka=0.665  R+/ka<=0.62871650922  beta(ka)<=2.014e-12  E<=4.515e-07  branch=2nd
+         table: left>=0.66499999 (true lhs/ka >= it), R+/ka<=0.62871651 (my upper bound <= it)
+case 4 K=9 p=1/3: OK  lhs/ka=0.6664  R+/ka<=0.66296280852  beta(ka)<=1e-14  E<=3.315e-08  branch=2nd
+         table: left>=0.66639999 (true lhs/ka >= it), R+/ka<=0.66296281 (my upper bound <= it)
+case 5 K=13 p=1/2: OK  lhs/ka=0.95899994246  R+/ka<=0.89044494573  beta(ka)<=1.2e-07  E<=6.508e-07  branch=1st
+         (iv): c*sqrt(kb) <= 4164.132563, W1 >= 4183.792104, rel.margin 0.004721
+         table: left>=0.95899994 (true lhs/ka >= it), R+/ka<=0.89044495 (my upper bound <= it)
+case 6 K=13 p=1/2: OK  lhs/ka=0.665  R+/ka<=0.62854331518  beta(ka)<=2.449e-11  E<=4.589e-07  branch=1st
+         (iv): c*sqrt(kb) <= 34934.22391, W1 >= 34934.66407, rel.margin 1.26e-05
+         table: left>=0.66499999 (true lhs/ka >= it), R+/ka<=0.62854332 (my upper bound <= it)
+case 7 K=13 p=1/3: OK  lhs/ka=0.665  R+/ka<=0.63009390086  beta(ka)<=2.057e-12  E<=4.571e-07  branch=1st
+         table: left>=0.66499999 (true lhs/ka >= it), R+/ka<=0.63009391 (my upper bound <= it)
+case 8 K=13 p=1/3: OK  lhs/ka=0.6664  R+/ka<=0.66284160315  beta(ka)<=1e-14  E<=3.314e-08  branch=2nd
+         table: left>=0.66639999 (true lhs/ka >= it), R+/ka<=0.66284161 (my upper bound <= it)
+ALL CASES OK
+
+monotonicity sample of R+(k)/k (floating point):
+  case 1: max increase of R+/k over sample = -4.304e-11; min(lhs/k - R+/k) = 0.086340
+  case 2: max increase of R+/k over sample = -7.332e-13; min(lhs/k - R+/k) = 0.054145
+  case 3: max increase of R+/k over sample = -2.554e-14; min(lhs/k - R+/k) = 0.036283
+  case 4: max increase of R+/k over sample = -1.887e-15; min(lhs/k - R+/k) = 0.003437
+  case 5: max increase of R+/k over sample = -3.725e-11; min(lhs/k - R+/k) = 0.068555
+  case 6: max increase of R+/k over sample = -6.396e-13; min(lhs/k - R+/k) = 0.036457
+  case 7: max increase of R+/k over sample = -2.132e-14; min(lhs/k - R+/k) = 0.034906
+  case 8: max increase of R+/k over sample = -1.443e-15; min(lhs/k - R+/k) = 0.003558
+
+K=9: cbar_inf^3 >= 0.00024830246234, cbar_inf >= 0.06285314432; claim cbar_inf > 62853/1000000: True
+K=13: cbar_inf^3 >= 0.000143034478156, cbar_inf >= 0.05229741772; claim cbar_inf > 52297/1000000: True
+
+k with 7e-5 sqrt(k) = 0.1 k^(1/4): 4164931278633.904  (paper: 4.17e12)
+k with 0.06 k^(1/3) = 0.1 k^(1/4): 244140625/531441 = 459.3936579977834  (paper: 460)
+1e-4 sqrt(4.62e12) in [ 214.941852602 , 214.941852602 ] (paper: > 214.9)
+0.1 (4.62e12)^(1/4) = 146.60895354719875 -> ceil 147  (paper/[Q]: 147)
+1e-4 sqrt(9e8) = 3.0  (paper: new from 9e8, W>=4)
+analytic: 8.5e-5 sqrt(k) > 3 from k > 1245674740.4844286
+2^-1/4 < 0.8409: True
+Lemma 2.1 (C5): w0 <= 1.12614793852e-05  < 1.13e-5: True

@@ -1,0 +1,28 @@
+== check_table_iv.py: Table 1 of the paper, conditions (i)-(iv) of Proposition 6.1 ==
+[K=9] B1 in [5.30335300001, 5.30335300001], L1 <= 100021.2253, c_inf with the rounded constants >= 0.06285314432
+[K=13] B1 in [6.37380300001, 6.37380300001], L1 <= 100025.5123, c_inf with the rounded constants >= 0.05229741772
+case 1 [K=9] W > 0.0001 k^1/2 for all integers k in [1.0e+8, 2.5e+15]  (tau0=0.0205, tau1=0.02, nu0=0.001, b=0.0012): OK
+      (i) beta(k_a) <= 1.2e-7: True;  (ii) E <= 6.37e-7: True;  (iv): True;  parameters: True
+      (iii) left/k_a >= 0.95899994246 > R+/k_a <= 0.872660085520583: True
+case 2 [K=9] W > 7.0e-5 k^1/2 for all integers k in [2.5e+15, 3.5e+17]  (tau0=0.1675, tau1=0.167, nu0=0.001, b=0.0012): OK
+      (i) beta(k_a) <= 2.4e-11: True;  (ii) E <= 4.45e-7: True;  (iv): True;  parameters: True
+      (iii) left/k_a >= 0.664999999999998 > R+/k_a <= 0.610855003425444: True
+case 3 [K=9] W > 0.06 k^1/3 for all integers k in [3.5e+17, infinity]  (tau0=0.1675, tau1=0.167, nu0=0.01, b=1.0): OK
+      (i) beta(k_a) <= 2.014e-12: True;  (ii) E <= 4.52e-7: True;  (iv): True;  parameters: True
+      (iii) left/k_a >= 0.665 > R+/k_a <= 0.628716509218742: True
+case 4 [K=9] W > 0.0625 k^1/3 for all integers k in [1.0e+21, infinity]  (tau0=0.1668, tau1=0.1667, nu0=0.005, b=1.0): OK
+      (i) beta(k_a) <= 1.0e-14: True;  (ii) E <= 3.31e-8: True;  (iv): True;  parameters: True
+      (iii) left/k_a >= 0.6664 > R+/k_a <= 0.662962808522942: True
+case 5 [K=13] W > 8.5e-5 k^1/2 for all integers k in [1.0e+8, 2.4e+15]  (tau0=0.0205, tau1=0.02, nu0=0.001, b=0.0012): OK
+      (i) beta(k_a) <= 1.2e-7: True;  (ii) E <= 6.51e-7: True;  (iv): True;  parameters: True
+      (iii) left/k_a >= 0.95899994246 > R+/k_a <= 0.890444945731005: True
+case 6 [K=13] W > 6.0e-5 k^1/2 for all integers k in [2.4e+15, 3.39e+17]  (tau0=0.1675, tau1=0.167, nu0=0.001, b=0.0012): OK
+      (i) beta(k_a) <= 2.449e-11: True;  (ii) E <= 4.59e-7: True;  (iv): True;  parameters: True
+      (iii) left/k_a >= 0.664999999999998 > R+/k_a <= 0.628543315181609: True
+case 7 [K=13] W > 0.05 k^1/3 for all integers k in [3.39e+17, infinity]  (tau0=0.1675, tau1=0.167, nu0=0.01, b=1.0): OK
+      (i) beta(k_a) <= 2.057e-12: True;  (ii) E <= 4.57e-7: True;  (iv): True;  parameters: True
+      (iii) left/k_a >= 0.665 > R+/k_a <= 0.63009390086186: True
+case 8 [K=13] W > 0.052 k^1/3 for all integers k in [1.0e+21, infinity]  (tau0=0.1668, tau1=0.1667, nu0=0.005, b=1.0): OK
+      (i) beta(k_a) <= 1.0e-14: True;  (ii) E <= 3.31e-8: True;  (iv): True;  parameters: True
+      (iii) left/k_a >= 0.6664 > R+/k_a <= 0.662841603145386: True
+ALL OK
