@@ -67,7 +67,7 @@ Developed with extensive assistance from Claude (Anthropic), including the proof
 
 ## How to cite
 
-Ryu, Sungjoon. *Packing k²−c unit squares: a lower bound of order k^{1/3} for the deficiency.* Preprint, version 1.0, 2026. https://github.com/squarepacker/k2-minus-c-cube-root. DOI: added after the release.
+Ryu, Sungjoon. *Packing k²−c unit squares: a lower bound of order k^{1/3} for the deficiency.* Preprint, version 1.0, 2026. https://github.com/squarepacker/k2-minus-c-cube-root. Preprint and programs: https://doi.org/10.5281/zenodo.23212059 (this version; all versions: https://doi.org/10.5281/zenodo.23212058).
 
 [Q] Ryu, Sungjoon. *Packing k²−c unit squares: a lower bound of order k^{1/4} for the deficiency.* Preprint, version 1.0, 2026. https://doi.org/10.5281/zenodo.23211207 (preprint and programs) and https://github.com/squarepacker/k2-minus-c-quarter (release v1.0)
 
